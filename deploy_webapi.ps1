@@ -1,5 +1,5 @@
 #!/usr/bin/pwsh -Command
 
-podman pull docker.io/ursteveb/dotnetstoreapi:v8-latest
+sudo docker-compose build
 
-sudo podman run -d --name storeapi -p 5000 docker.io/ursteveb/dotnetstoreapi:v8-latest
+sudo docker-compose up

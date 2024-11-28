@@ -1,0 +1,1 @@
+FROM docker.io/ursteveb/dotnetstoreapi:v8-latest

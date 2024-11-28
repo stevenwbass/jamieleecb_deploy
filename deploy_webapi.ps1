@@ -1,5 +1,5 @@
 #!/usr/bin/pwsh -Command
 
-sudo docker-compose build
+sudo podman-compose build
 
-sudo docker-compose up
+sudo podman-compose up
